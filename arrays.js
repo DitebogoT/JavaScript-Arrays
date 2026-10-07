@@ -1,3 +1,5 @@
+//October 7
+
 let cars = ['BMW','Mercedes','Audi'];
 let laptops = ['acer','dell','HP'];
 let sweets = ['yogetta','pin-pop','stumbo'];
@@ -70,3 +72,22 @@ function display()
 }
 
 console.log(display());
+
+// An array of objects inside an object.
+ let customer = [
+     {
+         name: "Ditebogo",
+         surname:"Tlhakola",
+            Products: [
+                {name: "Atchaar", price: "45", quantity:"3", model:"garlic"},
+                {name: "Magwinya", price: "10", quantity:"4", model:"donut"},
+                {name: "Skopo", price: "50", quantity:"2", model:"cow"}
+            ]
+     },
+ ];
+
+ function buy(){
+     return(customer[0])
+ }
+
+ console.log(buy());
