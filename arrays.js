@@ -20,7 +20,7 @@ if (cars.includes('BMW') || cars.includes('Mercedes') || cars.includes('Isuzu'))
     console.log("The car isn't available.");
 }
 
-Objects in arrays
+//Objects in arrays
 
 let fruits = [
    { name: "Apple", color: "Red" },
@@ -31,6 +31,8 @@ let fruits = [
 
 console.log(fruits[0].name + " is " + fruits[0].color);
 
+//Functions
+
 function sales(){
     let price= 10;
     let quantity = 5;
@@ -40,20 +42,21 @@ function sales(){
 
 console.log(sales(10, 5));
 
+//objects outside functions
 let product = {
     name: "Acer",
     model: "Aspire A514",
     price: "15000"
-}
+};
  function display1()
  {
-     return
+     return(product.name)
  }
 
- console.log(product.name)
+ console.log(display1())
 
 
-
+//objects in a function
 function display()
 {
     let fruits = [
