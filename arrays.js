@@ -19,3 +19,51 @@ if (cars.includes('BMW') || cars.includes('Mercedes') || cars.includes('Isuzu'))
 } else {
     console.log("The car isn't available.");
 }
+
+Objects in arrays
+
+let fruits = [
+   { name: "Apple", color: "Red" },
+   { name: "Banana", color: "Yellow" },
+   { name: "Orange", color: "Orange" },
+   { name: "Grapes", color: "Purple" }
+];
+
+console.log(fruits[0].name + " is " + fruits[0].color);
+
+function sales(){
+    let price= 10;
+    let quantity = 5;
+    let total = price * quantity;
+    return ("With the the price of $" + price + " and quantity of " + quantity + ", the total is: $" + total);
+}
+
+console.log(sales(10, 5));
+
+let product = {
+    name: "Acer",
+    model: "Aspire A514",
+    price: "15000"
+}
+ function display1()
+ {
+     return
+ }
+
+ console.log(product.name)
+
+
+
+function display()
+{
+    let fruits = [
+        { name: "Apple", color: "Red" },
+        { name: "Banana", color: "Yellow" },
+        { name: "Orange", color: "Orange" },
+        { name: "Grapes", color: "Purple" }
+    ];
+
+    return(fruits[3])
+}
+
+console.log(display());
