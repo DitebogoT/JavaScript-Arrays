@@ -15,7 +15,7 @@ cars.unshift('Nissan','Volvo','Isuzu');
 cars.shift();
 
 if (cars.includes('BMW') || cars.includes('Mercedes') || cars.includes('Isuzu')) {
-    console.log(cars);
+    console.log(cars + " are the cars available.");
 } else {
     console.log("The car isn't available.");
 }
